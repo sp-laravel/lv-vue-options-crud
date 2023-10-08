@@ -1,0 +1,4 @@
+php artisan make:seeder ProductSeeder
+php artisan make:factory ProductFactory --model=Product
+php artisan db:seed --class=ProductSeeder
+php artisan storage:link
